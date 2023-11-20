@@ -1,4 +1,6 @@
 import React, { useEffect, useRef } from 'react'
+import { NavLink } from 'react-router-dom'
+
 import classNames from 'classnames'
 import {
   CAvatar,
@@ -9,6 +11,8 @@ import {
   CCardFooter,
   CCardHeader,
   CCol,
+  CNavItem,
+  CNavLink,
   CProgress,
   CRow,
   CTable,
@@ -78,11 +82,11 @@ const Dashboard = () => {
                   <div className="medium text-body-secondary">CANIS HACKATHON was held from Nov 17 to Nov 21, 2023</div>
                 </CCol>
                 <CCol sm={6} className="d-none d-md-block">
-                  <CButton color="primary" className="float-end" style={{marginLeft:'4px'}}>
+                  <CButton to="/interesting/MLModel" component={NavLink} color="primary" className="float-end" style={{marginLeft:'4px'}}>
                     Try Our ML Model!
                   </CButton>
-                  <CButton color="success" className="float-end">
-                    See Interactive Network Graph!
+                  <CButton to="/interesting/MLModel" component={NavLink} color="success" className="float-end">
+                    To Interactive Network Graph
                   </CButton>
                 </CCol>
               </CRow>

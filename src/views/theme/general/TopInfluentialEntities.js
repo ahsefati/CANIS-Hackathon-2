@@ -64,7 +64,7 @@ const FocusOfDifferentPlatformsByCountry = () => {
     <>
       <CRow>
         <CCol sm={6}>
-          <h3>1- Top influential Entitity Owners</h3>
+          <h3>1- Top Influential Entitity Owners</h3>
           <div>We analyzed the top 5 entity owners based on the given dataset. There are two dimensions for us to explore: 
             <li>First, we explored the number of accounts that are created by each entity owner and we see if there is any unusual activities. Result for the top influential entity owners based on the number of accounts created by them can be seen on the right side.</li>
             <li>Second, we did the same steps but based on the number of followers gained by each of these entity owners. However, later researchs showed us that many of the gained followers are fake/bots. The result for this step is also visible on the right side.</li>
@@ -93,7 +93,7 @@ const FocusOfDifferentPlatformsByCountry = () => {
       <br/>
       <CRow>
         <CCol sm={6}>
-          <h3>2- Top influential Parent Entities</h3>
+          <h3>2- Top Influential Parent Entities</h3>
           <div>We analyzed the top 5 parent entities based on the given dataset. Again, there are two dimensions for us to explore: 
             <li>First, we explored the number of accounts that are created by each of the parent entities and we see if there is any unusual activities. Result for the top influential entity owners based on the number of accounts created by them can be seen on the right side.</li>
             <li>Second, we did the same steps but based on the number of followers gained by each of these parent entities. However, later researchs showed us that many of the gained followers are fake/bots. The result for this step is also visible on the right side.</li>

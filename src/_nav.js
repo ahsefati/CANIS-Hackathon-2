@@ -155,7 +155,7 @@ const _nav = [
   },
   {
     component: CNavItem,
-    name: 'Top influential Entities',
+    name: 'Top Influential Entities',
     to: '/general/TopInfluentialEntities',
     icon: <CIcon icon={cilLineStyle} customClassName="nav-icon" />,
   },
