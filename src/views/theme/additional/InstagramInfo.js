@@ -75,13 +75,9 @@ const InstagramInfo = () => {
         <CCol sm={7}>
           <h3>General Information on Instagram Profiles</h3>
           <div>Due to the time limits, we were not able to systematically analyze Instagram profiles. However, we manually visited all the 139 pages. Here are some facts about them: 
-            <li>First, we explored the number of accounts that are created by each entity owner and we see if there is any unusual activities. Result for the top influencial entity owners based on the number of accounts created by them can be seen on the right side.</li>
+            <li>First, we explored the number of accounts that are created by each entity owner and we see if there is any unusual activities. Result for the top influential entity owners based on the number of accounts created by them can be seen on the right side.</li>
             <li>Second, we did the same steps but based on the number of followers gained by each of these entity owners. However, later researchs showed us that many of the gained followers are fake/bots. The result for this step is also visible on the right side.</li>
           </div>
-          <h5 style={{marginTop:'18px'}}>
-            &#x2713; Results:
-          </h5>
-          <h6>As it can be seen, ...</h6>
         </CCol>
         <CCol sm={5}>
           <CChartPie

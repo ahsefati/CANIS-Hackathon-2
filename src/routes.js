@@ -6,7 +6,7 @@ const LanguageDistribution = React.lazy(() => import('./views/theme/typography/L
 const EntityOwnersInflunceByPlatforms = React.lazy(() => import('./views/theme/general/EntityOwnersInflunceByPlatforms'))
 const ParentEntityInflunceByPlatforms = React.lazy(() => import('./views/theme/general/ParentEntityInflunceByPlatforms'))
 const TargettingBasedOnDifferentPlatforms = React.lazy(() => import('./views/theme/general/TargettingBasedOnDifferentPlatforms'))
-const TopInfluencialEntitities = React.lazy(() => import('./views/theme/general/TopInfluencialEntitities'))
+const TopInfluentialEntities = React.lazy(() => import('./views/theme/general/TopInfluentialEntities'))
 
 // TWITTER
 const TopHashtags = React.lazy(() => import('./views/theme/twitter/TopHashtags'))
@@ -81,7 +81,7 @@ const routes = [
   { path: '/general/EntityOwnersInflunceByPlatforms', name: 'EntityOwnersInflunceByPlatforms', element: EntityOwnersInflunceByPlatforms },
   { path: '/general/ParentEntityInflunceByPlatforms', name: 'ParentEntityInflunceByPlatforms', element: ParentEntityInflunceByPlatforms },
   { path: '/general/TargettingBasedOnDifferentPlatforms', name: 'TargettingBasedOnDifferentPlatforms', element: TargettingBasedOnDifferentPlatforms },
-  { path: '/general/TopInfluencialEntitities', name: 'TopInfluencialEntitities', element: TopInfluencialEntitities },
+  { path: '/general/TopInfluentialEntities', name: 'TopInfluentialEntities', element: TopInfluentialEntities },
 
   { path: '/twitter/SentimentAnalysis', name: 'SentimentAnalysis', element: SentimentAnalysis },
   { path: '/twitter/TopHashtags', name: 'TopHashtags', element: TopHashtags },

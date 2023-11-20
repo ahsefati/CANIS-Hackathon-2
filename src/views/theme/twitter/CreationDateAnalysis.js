@@ -61,18 +61,22 @@ const CreationDateAnalysis = () => {
     <>
       <CRow>
         <CCol sm={6}>
-          <h3>Creation Date Analysis</h3>
-          <div>Using the Twitter Scraper we implemented using Selenium, we were able to extract more information on each Twitter account given in the dataset. We used the joined date of them and analyze it to see if anything interesting is waiting for us! <br/>There are some interesting notes and assumptions:  
-            <li>First, Corona Virus and China....</li>
-            <li>Second, ...</li>
-          </div>
+          <h3>Account Creation Date Analysis</h3>
+          <h6>
+            With our Twitter Scraper created using Selenium, we retrieved additional details for each Twitter account provided in the dataset. In this section, we focused on analyzing their join dates to uncover any interesting findings.
+          </h6>
           <h5 style={{marginTop:'18px'}}>
-            &#x2713; Results:
+            &#x2713; Result:
           </h5>
-          <h6>As it can be seen, ...</h6>
+          <h6>
+            - COVID-19 Pandemic: As you can see in the following graph, a significant number of accounts were created between September and April 2020 which corresponds to the early stages of the COVID-19 pandemic. Government of China may use social media to manage global perceptions, particularly during the pandemic. The accounts could be part of an effort to shape narratives or present a particular viewpoint. Also, government may create accounts for monitoring and surveillance purposes, both domestically and internationally (since accounts are in different languages). We can also relate high account creations until November 2021 to next stages of COVID-19 pandemic.
+          </h6>
+          <h6>
+            - Increasing Presence and Diversity: From the second visualizitation, we can see that over the time, the number of Twitter accounts created and controlled by China have been Increasing substantially. Also, after 2019, the language diversity increases each year to support and influence on individuals in a higher scale.
+          </h6>
         </CCol>
         <CCol sm={6}>
-          <img style={{marginLeft:'24px'}} src={Creation_China_Corona} width={'550px'}/>
+          <img style={{marginLeft:'24px'}} src={Creation_China_Corona} width={'650px'}/>
         </CCol>
       </CRow>
       <br/><br/>

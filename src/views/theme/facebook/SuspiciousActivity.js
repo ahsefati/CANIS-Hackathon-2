@@ -59,9 +59,15 @@ const SuspiciousActivity = () => {
       <CRow>
         <CCol sm={6}>
           <h3>Suspicious Activity</h3>
-          <div>
+          <h6>
             We researched most of the suspicious accounts to see what are their activities.
-          </div>
+          </h6>
+          <h5 style={{marginTop:'18px'}}>
+            &#x2713; Some insights...
+          </h5>
+          <h6>- First suspicious activity that we saw many times was the people claiming to be experts in trading! You can see some of the examples on the right side. A lot of these accounts used a very similar sentence: "I begin with $X and now I have $Y in just a week!". These accounts also had lots of followers in the range of millions while they have not attracted a high number of engagements (likes/comment)!</h6>
+          <h6>- Second thing was about the profile picture that some of these accounts had. They are mostly GAN generated as we can see the same styles in the face of these pictures.</h6>
+          <h6>- Lastly some of the accounts had posts, comments, or biographies completely unrelated to their name/presence. For example, in the last picture, you can see an account claiming to be "The Embassy of China in Ukraine" while posting unrelated media!</h6>
         </CCol>
         <CCol sm={6}>
           <img style={{marginLeft:'24px'}} src={SuspiciousActivity_1} width={'550px'}/>

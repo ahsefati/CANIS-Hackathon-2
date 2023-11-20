@@ -64,7 +64,7 @@ const PlatformsDetectionPower = () => {
         <CCol sm={7}>
           <h3>Platforms Fake Profile Detection Power</h3>
           <div>In our research, we found out that there are many accounts that are no longer visible in different platforms. For example, there are some Twitter handles that when visited, there was no accounts. After searching about the causes of it, we realized that each platform such as Instagram, Facebook, and Twitter uses specific algorithms to detect fake accounts. Those algorithms often use fake engagement patterns or suspicious activities and they will remove the account permanently. Here are some facts about them: 
-            <li>First, we explored the number of accounts that are created by each entity owner and we see if there is any unusual activities. Result for the top influencial entity owners based on the number of accounts created by them can be seen on the right side.</li>
+            <li>First, we explored the number of accounts that are created by each entity owner and we see if there is any unusual activities. Result for the top influential entity owners based on the number of accounts created by them can be seen on the right side.</li>
             <li>Second, we did the same steps but based on the number of followers gained by each of these entity owners. However, later researchs showed us that many of the gained followers are fake/bots. The result for this step is also visible on the right side.</li>
           </div>
           <br/>
@@ -73,7 +73,18 @@ const PlatformsDetectionPower = () => {
           <h5 style={{marginTop:'18px'}}>
             &#x2713; Results:
           </h5>
-          <h6>As it can be seen, ...</h6>
+          <h6>
+            - Platform-Specific Detection Insights:
+            <li>Facebook: It seems to be really good at finding fake accounts or has a lot of them. This is important because it's used all over the world and is important to Chinese groups.</li>
+            <li>Twitter: It doesn't find as many fake accounts, even though it has a lot of users. This could mean that its rules aren't as strict, or that fake accounts are better at hiding.</li>
+            <li>YouTube: Finds the least fake accounts. This might be because there aren't many fake accounts on YouTube, or it doesn't try as hard to find them. YouTube is more about watching videos than talking to people.</li>
+          </h6>
+          <h6>
+            - Fake account creators might use different tricks on each platform. For example, they might be sneakier on Twitter but simpler on Facebook.
+          </h6>
+          <h6>
+            - People, especially from China, might make fake accounts for money, politics, or to influence others. Websites like Instagram and Facebook are more at risk because followers and likes are linked to money and power.
+          </h6>
         </CCol>
         <CCol sm={5}>
           <CCard>

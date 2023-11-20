@@ -64,15 +64,17 @@ const FocusOfDifferentPlatformsByCountry = () => {
     <>
       <CRow>
         <CCol sm={6}>
-          <h3>1- Top Influencial Entitity Owners</h3>
+          <h3>1- Top influential Entitity Owners</h3>
           <div>We analyzed the top 5 entity owners based on the given dataset. There are two dimensions for us to explore: 
-            <li>First, we explored the number of accounts that are created by each entity owner and we see if there is any unusual activities. Result for the top influencial entity owners based on the number of accounts created by them can be seen on the right side.</li>
+            <li>First, we explored the number of accounts that are created by each entity owner and we see if there is any unusual activities. Result for the top influential entity owners based on the number of accounts created by them can be seen on the right side.</li>
             <li>Second, we did the same steps but based on the number of followers gained by each of these entity owners. However, later researchs showed us that many of the gained followers are fake/bots. The result for this step is also visible on the right side.</li>
           </div>
           <h5 style={{marginTop:'18px'}}>
-            &#x2713; Results:
+            &#x2713; Some Results...
           </h5>
-          <h6>As it can be seen, ...</h6>
+          <h6>- Number of Accounts: Among the top 5 entity owners, China Media Group (CMG) has the highest number of accounts across all examined social media platforms. So it seems this entity owner aims to have a wide influence on social media. People Daily Press, Xinhua, and China Daily Press have a relatively lower number of accounts compared to CMG, with a balanced distribution across Twitter, Instagram, Facebook, and YouTube, and a smaller presence on TikTok. This could suggest a focus on quality over quantity in their social media influence strategy.</h6>
+          <h6>- Total number of followers: CMG's total follower count is higher than other entity owners. For most of the entity owners, the number of total Facebook followers is larger than other platforms’ followers, which might show the larger scale of Facebook's influence on users. However, the presence of fake or bot followers significantly diminishes the influence these numbers might suggest. While The Ministry of Foreign Affairs has a large number of accounts on social media platforms, it has relatively low total followers in comparison to other entity owners, which suggests that its accounts have more authentic followers.</h6>
+          <h6>- Average number of followers: We can see that the average number of followers for CMG is smaller than 3 of 5 tops, while the total number of followers for CMG was the highest. It suggests that the variation of accounts’ followers is high for CMG accounts. This also can provide an insight about the fake followers for some of their accounts.</h6>
         </CCol>
         <CCol sm={6}>
           <img style={{marginLeft:'24px'}} src={TopEntitiyOwnersInfluenceByNumberOfAccounts} width={'650px'}/>
@@ -91,15 +93,14 @@ const FocusOfDifferentPlatformsByCountry = () => {
       <br/>
       <CRow>
         <CCol sm={6}>
-          <h3>2- Top Influencial Parent Entitities</h3>
+          <h3>2- Top influential Parent Entities</h3>
           <div>We analyzed the top 5 parent entities based on the given dataset. Again, there are two dimensions for us to explore: 
-            <li>First, we explored the number of accounts that are created by each of the parent entities and we see if there is any unusual activities. Result for the top influencial entity owners based on the number of accounts created by them can be seen on the right side.</li>
-            <li>Second, we did the same steps but based on the number of followers gained by each of these entity owners. However, later researchs showed us that many of the gained followers are fake/bots. The result for this step is also visible on the right side.</li>
+            <li>First, we explored the number of accounts that are created by each of the parent entities and we see if there is any unusual activities. Result for the top influential entity owners based on the number of accounts created by them can be seen on the right side.</li>
+            <li>Second, we did the same steps but based on the number of followers gained by each of these parent entities. However, later researchs showed us that many of the gained followers are fake/bots. The result for this step is also visible on the right side.</li>
           </div>
           <h5 style={{marginTop:'18px'}}>
-            &#x2713; Results:
+            &#x2713; The same analysis as explained in the previous section, also applies for this part. 
           </h5>
-          <h6>As it can be seen, ...</h6>
         </CCol>
         <CCol sm={6}>
           <img style={{marginTop:'24px', marginLeft:'24px'}} src={TopParentEntitiesInfluenceByNumberOfAccounts} width={'650px'}/>

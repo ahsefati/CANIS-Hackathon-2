@@ -73,9 +73,9 @@ const Dashboard = () => {
               <CRow>
                 <CCol sm={6}>
                   <h2 id="traffic" className="card-title mb-0">
-                    Welcome to WhoIsWho platform!
+                    Welcome to ChinaImpact platform!
                   </h2>
-                  <div className="medium text-body-secondary">CANIS HACKATHON was hel between Nov 17 to Nov 21, 2023</div>
+                  <div className="medium text-body-secondary">CANIS HACKATHON was held from Nov 17 to Nov 21, 2023</div>
                 </CCol>
                 <CCol sm={6} className="d-none d-md-block">
                   <CButton color="primary" className="float-end" style={{marginLeft:'4px'}}>
@@ -87,9 +87,15 @@ const Dashboard = () => {
                 </CCol>
               </CRow>
               <CRow>
-                  <h5 style={{marginTop:'16px'}} id="traffic" className="card-title mb-0">
-                    Throughout this hackathon, we analyzed several different aspects of the given dataset. Additionally, we used scraping libraries (selenuim) using Python to extract more information about accounts on different platforms, specially Twitter.
-                  </h5>
+                  <h6 style={{marginTop:'16px'}} id="traffic" className="card-title mb-0">
+                    &#x2713; Throughout this hackathon, we analyzed several different aspects of the given dataset. Additionally, we used scraping libraries (selenuim) using Python to extract more information about accounts on different platforms, specially Twitter.
+                  </h6>
+                  <h6 style={{marginTop:'16px'}} id="traffic" className="card-title mb-0">
+                    &#x2713; Overall, this analysis is about a dataset profiling various entities, primarily focusing on their social media presence across different regions and languages. It aims to understand the influence and reach of these entities, providing insights into their audience engagement.
+                  </h6>
+                  <h6 style={{marginTop:'16px'}} id="traffic" className="card-title mb-0">
+                    &#x2713; In conclusion, we can see a high-scale effort from China to globally affect others' opinions by creating different accounts with a focus on different countries with various languages. Canadians are one of the main targets of China's influence in different areas. However, the results of these campaigns seem to not be satisfactory, as we found really low engagement from real users on the content that is published by the Chinese state-controlled media or their actors. 
+                  </h6>
               </CRow>
             </CCardBody>
           </CCard>
@@ -131,7 +137,7 @@ const Dashboard = () => {
                   <h4 style={{marginTop:'2px'}}>Morvarid Lalenoor</h4>
                   <h6>ML Engineer & Data Scientist</h6>
                   <h6>MSc. Software Engineering @ UofC</h6>
-                  <h6><a href='https://www.linkedin.com/in/amirhossein-sefati/'>LinkedIn</a> | <a href='https://github.com/ahsefati'>Github</a></h6>
+                  <h6><a href='https://www.linkedin.com/in/morvaridlalenoor/'>LinkedIn</a> | <a href='https://github.com/morvarid-L-noor'>Github</a></h6>
                 </CCol>
               </CRow>
               <CRow>
@@ -139,15 +145,15 @@ const Dashboard = () => {
                   <CAvatar src={zahra} size="xl" />
                   <h4 style={{marginTop:'2px'}}>Zahra Safari</h4>
                   <h6>Full-Stack Developer</h6>
-                  <h6>MSc. Computer Science @ UofC</h6>
-                  <h6><a href='https://www.linkedin.com/in/amirhossein-sefati/'>LinkedIn</a> | <a href='https://github.com/ahsefati'>Github</a></h6>
+                  <h6>MSc. Software Engineer @ UofC</h6>
+                  <h6><a href='https://www.linkedin.com/in/zahrasafari/'>LinkedIn</a> | <a href='https://github.com/zahrasafari91'>Github</a></h6>
                 </CCol>
                 <CCol style={{marginTop:'18px'}} sm={6}>
                   <CAvatar src={sadaf} size="xl" />
                   <h4 style={{marginTop:'2px'}}>Sadaf Erfanmanesh</h4>
                   <h6>Data Scientist</h6>
                   <h6>MSc. Computer Science @ UofC</h6>
-                  <h6><a href='https://www.linkedin.com/in/amirhossein-sefati/'>LinkedIn</a> | <a href='https://github.com/ahsefati'>Github</a></h6>
+                  <h6><a href='https://www.linkedin.com/in/amirhossein-sefati/'>LinkedIn</a> | <a href='https://github.com/sadafem'>Github</a></h6>
                 </CCol>
               </CRow>
             </CCardBody>

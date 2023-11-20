@@ -12,6 +12,7 @@ import {
   cilDrop,
   cilFace,
   cilFaceDead,
+  cilHappy,
   cilLanguage,
   cilLineStyle,
   cilMap,
@@ -43,31 +44,19 @@ const _nav = [
   },
   {
     component: CNavTitle,
-    name: 'General Analysis',
+    name: 'Most Interesting',
   },
   {
     component: CNavItem,
-    name: 'Regional Focus Distribution',
-    to: '/general/RegionalFocusDistribution',
-    icon: <CIcon icon={cilMap} customClassName="nav-icon" />,
+    name: 'Network Graphs Using Tweet Info',
+    to: '/interesting/NetworkGraph',
+    icon: <CIcon icon={cilVector} customClassName="nav-icon" />,
   },
   {
     component: CNavItem,
-    name: 'Distribution of Languages',
-    to: '/general/LanguageDistribution',
-    icon: <CIcon icon={cilLanguage} customClassName="nav-icon" />,
-  },
-  {
-    component: CNavItem,
-    name: 'Targetting based on Different Platforms',
-    to: '/general/TargettingBasedOnDifferentPlatforms',
-    icon: <CIcon icon={cilFaceDead} customClassName="nav-icon" />,
-  },
-  {
-    component: CNavItem,
-    name: 'Top Influencial Entitities',
-    to: '/general/TopInfluencialEntitities',
-    icon: <CIcon icon={cilLineStyle} customClassName="nav-icon" />,
+    name: 'ML Model: Account Detection Tool',
+    to: '/interesting/MLModel',
+    icon: <CIcon icon={cilSearch} customClassName="nav-icon" />,
   },
   {
     component: CNavTitle,
@@ -81,7 +70,7 @@ const _nav = [
     items: [
       {
         component: CNavItem,
-        name: 'Overview and Sentimental Analysis',
+        name: 'Overview and sentiment Analysis',
         to: '/twitter/SentimentAnalysis',
       },
       {
@@ -144,19 +133,31 @@ const _nav = [
   },
   {
     component: CNavTitle,
-    name: 'Most Interesting...',
+    name: 'General Analysis',
   },
   {
     component: CNavItem,
-    name: 'Network Graphs Using Tweet Info',
-    to: '/interesting/NetworkGraph',
-    icon: <CIcon icon={cilVector} customClassName="nav-icon" />,
+    name: 'Regional Focus Distribution',
+    to: '/general/RegionalFocusDistribution',
+    icon: <CIcon icon={cilMap} customClassName="nav-icon" />,
   },
   {
     component: CNavItem,
-    name: 'ML Model: Account Detection Tool',
-    to: '/interesting/MLModel',
-    icon: <CIcon icon={cilSearch} customClassName="nav-icon" />,
+    name: 'Distribution of Languages',
+    to: '/general/LanguageDistribution',
+    icon: <CIcon icon={cilLanguage} customClassName="nav-icon" />,
+  },
+  {
+    component: CNavItem,
+    name: 'Targeting based on Different Platforms',
+    to: '/general/TargettingBasedOnDifferentPlatforms',
+    icon: <CIcon icon={cilFaceDead} customClassName="nav-icon" />,
+  },
+  {
+    component: CNavItem,
+    name: 'Top influential Entities',
+    to: '/general/TopInfluentialEntities',
+    icon: <CIcon icon={cilLineStyle} customClassName="nav-icon" />,
   },
 ]
 

@@ -15,11 +15,25 @@ const LanguageDistribution = () => {
       </CRow>
       <CRow>
         <CCol style={{marginTop:'24px'}} sm={8}>
-          Hi!
+          <h6>
+            &#x2713; Introduction: There was a feature in the dataset as entities, parent entities and entity owners, in this section, we can see each entity owner is the subset of which parent entity and how many languages each one has . For example, the central publicity department → CMG uses a variety of languages in their accounts.  
+            Also we can see that which languages are more targeted by this state controlled media. For example English and Chinese are most reached by these accounts.
+          </h6>
+          <h6>
+            &#x2713; Relation with Parent Entities and Entity Owners: Let's see an example! The parent entity with the most diverse languages is as follows:
+            Central Publicity Department. This parent entity influences a number of entity owners that produce content in different languages like English, Chinese, Arabic, etc. aiming to project its messaging globally and within the region. Also, The entity owner with the most diverse language coverage is China Media Group (CMG) which can have a high-scale influence on social media.
+          </h6>
+          <h6>
+            &#x2713; Language Specific Analysis: Let's see why these languages are being targeted!
+            <li>English: It is the most used language by the accounts provided in the dataset, suggesting a broad strategy to reach an international audience.</li>
+            <li>Chinese: The second most used language by the provided accounts is Chinese, focusing on regional outreach.</li>
+            <li>Spanish: The targeting of Spanish by accounts with entity owners like China Media Group (CMG) points to a strategic move to engage with the Spanish-speaking world, possibly in regions like Latin America, which are of growing interest to China.</li>
+            <li>French, German, and Arabic: These languages are represented in the dataset, likely due to their importance in international diplomacy and global media. Entity owners like China Internet Information Center may use these languages to cater to specific regions—French for Africa and parts of Europe, German for the European Union, and Arabic for the Middle East.</li>
+          </h6>
         </CCol>
         <CCol style={{marginTop:'24px'}} sm={4}>
           <CCard className="mb-4">
-            <CCardHeader>Targeted Languages Peercentage</CCardHeader>
+            <CCardHeader>Targeted Languages Percentage</CCardHeader>
             <CCardBody>
               <CChartDoughnut
                 data={{

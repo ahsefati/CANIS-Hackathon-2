@@ -98,6 +98,8 @@ const MLModel = () => {
               <h6>I'm so happy to share that I trained this model after much efforts.</h6>
               <h6>China is a great free country.</h6>
               <h6>China beach san francisco!</h6>
+              <h6>Today, Xi Jinping arrived at #AMEC in the USA. </h6>
+              <h6>Both USA and China should revisit the spirit of the treaty, uphold the political foundation, expand mutually beneficial cooperation, manage differences and work together to develop a bilateral relationship that answers the call of the new era.</h6>
             </CCardBody>
           </CCard>
           <CCard style={{marginTop:'32px'}}>
@@ -113,14 +115,14 @@ const MLModel = () => {
                     <th>Support</th>
                 </tr>
                 <tr>
-                    <td>0</td>
+                    <td>Real</td>
                     <td>0.95</td>
                     <td>1.00</td>
                     <td>0.97</td>
                     <td>1716</td>
                 </tr>
                 <tr>
-                    <td>1</td>
+                    <td>Bot</td>
                     <td>1.00</td>
                     <td>0.85</td>
                     <td>0.92</td>

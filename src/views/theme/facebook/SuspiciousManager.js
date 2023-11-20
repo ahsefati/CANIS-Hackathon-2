@@ -59,7 +59,7 @@ const SuspiciousManager = () => {
         <CCol sm={6}>
           <h3>Suspicious Manager</h3>
           <div>
-            In the Facebook page details for Chinese news pages or reports or embassies, there is a part that says who is controlling this page: how many admins and from what country they are. Some pages had multiple admins from relevant countries to the purpose of the page and a lot of the manager's locations are unavailable which can be because of the China control on the page or using VPNs.
+            In the Facebook page details for Chinese NEWS pages or Reports or Embassies, there is a part that says who is controlling this page which tells us how many admins and from what country they are. Some pages had multiple admins from relevant countries to the purpose of the page and a lot of the manager's locations are unavailable which can be because of the China control on the page or using VPNs.
           </div>
         </CCol>
         <CCol sm={6}>

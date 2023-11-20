@@ -65,10 +65,6 @@ const FakeNamingPattern = () => {
             <li>First, there has been several accounts with names in format of “#-1111111” ending in an underline and a series of numbers. For example, someone with an id of "Tian-Wei-at-work-104942321495828" is shown in the right-side picture. Overall, when we checked these accounts they appeared to be suspicious.</li>
             <li>Second, so many of them has changed their name or joined facebook on some specific dates like 2020 (COVID-19 outbreak) or 2016 (USA elections and Donald trump). This also encourages our results in Twitter Analysis Section where we analyzed the join date of the Twitter accounts.</li>
           </div>
-          <h5 style={{marginTop:'18px'}}>
-            &#x2713; Results:
-          </h5>
-          <h6>As it can be seen, ...</h6>
         </CCol>
         <CCol sm={6}>
           <img style={{marginLeft:'24px'}} src={fakeNamingPattern} width={'550px'}/>

@@ -10,6 +10,7 @@ import WorldCloudBot from '../../../assets/images/Plots/WorldCloudBot.jpg'
 import WorldCloudReal from '../../../assets/images/Plots/WorldCloudReal.jpg'
 
 import MostUsedHashtagsClusteredToRealAndBot from 'src/components/MostUsedHashtagsClusteredToRealAndBot'
+import WordCloudAllDashboard from 'src/components/WordCloudAllDashboard'
 
 
 const ThemeView = () => {
@@ -60,45 +61,29 @@ const WordCloudAnalysis = () => {
       <CRow>
         <CCol sm={6}>
           <h3>WordCloud Analysis</h3>
-          <div>We used Selenium and Python using Chrome Driver to scrape last 50 tweets for each X (Twitter) account. Additionally, we vectorized the tweets at first, it gives a score to each tweet. Then, we used LDA algorithm to cluster all the tweets to Bot or Human-Generated ones. Also, we used NLTK library to pre-process all tweets as the very first step.<br/>There are some interesting notes and assumptions:  
-            <li>First, ...</li>
-            <li>Second, ...</li>
-          </div>
+          <h6>
+            In this section, we used WordCloud library in Python (v11.0) to extract the WordCloud of the tweets. WordCloud is important becuase we can see the most repeated words and it can be helpful to understand the China's influence on social media.  
+          </h6>
+          <h6>
+            In the right side, we can see the visualization of all the words used in the tweets. This WordCloud is generated using Tableau and it is presnted here by using its APIs (just like other visualizations by Tableau in this project). The difference is that this plot has a lot of information and that makes it longer to load. Please wait for it! 
+          </h6>
           <h5 style={{marginTop:'18px'}}>
-            &#x2713; Results:
+            &#x2713; Some Results...
           </h5>
-          <h6>As it can be seen, ...</h6>
+          <h6>- Real People's Discussions: Real people appear to be engaged in diverse discussions about China, including specific regions, the Covid-19 pandemic, local events, and international affairs. As it can be seen, the WordCloud of the tweets that are from real people have more balanced words.</h6>
+          <h6>- Bot Activities: Bots seem to focus on political figures (Xi Jinping) and international events (APEC). Despite of the real accounts, bots have a lower diversity of words. As it can be seen, there are only a limited big words compared to the real accounts.</h6>
         </CCol>
-        <CCol sm={6}>
-          <img style={{marginLeft:'24px'}} src={WorldCloudAll} width={'650px'}/>
+        <CCol sm={6} style={{height:'400px'}}>
+          <WordCloudAllDashboard/>
         </CCol>
-      </CRow>
-      <br/>
-      <hr/>
-      <br/>
-      <CRow>
-        <CCol sm={6}>
-          <h3>1- WordCloud Of Human Generated Tweets</h3>
-          <div>
-            We were able to identify two clusters based on the tweets contents and the use of hashtags. Below, you can an interactive plot for the most used hashtags. They are also labelled by Bot or Human generated tweets. Let's play with the following interactive plot! 
-          </div>
-        </CCol>
-        <CCol sm={6}>
-          <img style={{marginLeft:'24px'}} src={WorldCloudReal} width={'650px'}/>
-        </CCol>
-      </CRow>
-      <br/>
-      <br/>
-      <CRow>
-        <CCol sm={6}>
-          <h3>2- WordCloud Of Bot Generated Tweets</h3>
-          <div>
-            We were able to identify two clusters based on the tweets contents and the use of hashtags. Below, you can an interactive plot for the most used hashtags. They are also labelled by Bot or Human generated tweets. Let's play with the following interactive plot! 
-          </div>
-        </CCol>
-        <CCol sm={6}>
-          <img style={{marginLeft:'24px'}} src={WorldCloudBot} width={'650px'}/>
-        </CCol>
+        <CRow>
+          <CCol sm={6}>
+            <img style={{marginTop:'48px'}} src={WorldCloudReal} width={'650px'}/>
+          </CCol>
+          <CCol sm={6}>
+            <img style={{marginTop:'48px', marginLeft:'24px'}} src={WorldCloudBot} width={'650px'}/>
+          </CCol>
+        </CRow>
       </CRow>
       
     </>
